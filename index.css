@@ -1,0 +1,91 @@
+body {
+  /*top right bottom left 
+    top-bottom right/left */
+  margin: 0;
+  background: #1c1c1c;
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+}
+
+#container {
+  width: 550px;
+  background: #f4f4f4;
+  border: none;
+  margin: 100px auto;
+  height: 750px;
+}
+
+#top {
+  height: 285px;
+  background: #6943ff;
+  font-weight: 800;
+  font-size: 28px;
+  color: #ffffff;
+  padding-top: 33px;
+}
+
+#input-val {
+  width: 117px;
+  height: 83px;
+  font-weight: 800;
+  font-size: 58px;
+  border: 2px solid #b295ff;
+  border-radius: 5px;
+  background: #6943ff;
+  color: white;
+  text-align: center;
+  margin: 5px 217px;
+}
+
+#css-button-3d--sand {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: #ced4da;
+  box-shadow: 0 5px #adb5bd;
+  margin: 35px;
+}
+#css-button-3d--sand:hover {
+  box-shadow: 0 3px #adb5bd;
+  top: 1px;
+}
+#css-button-3d--sand:active {
+  box-shadow: 0 0 #adb5bd;
+  top: 5px;
+}
+
+.card {
+  background: #ffffff;
+
+  width: 400px;
+  height: 115px;
+  margin: 15px 75px;
+
+  border-radius: 3px;
+  background: linear-gradient(225deg, #e6e6e6, #ffffff);
+  box-shadow: -8px 8px 25px #ededed, 8px -8px 25px #ffffff;
+}
+
+.cardH-text {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  color: #5a537b;
+}
+
+.cardL-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #5a537b;
+}
